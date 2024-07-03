@@ -1,3 +1,5 @@
-export default function setFromArray(list) {
-  return new Set(list);
-}
+const setFromArray = (array) => (
+  new Set(array)
+);
+
+export default setFromArray;
